@@ -7,6 +7,14 @@ var canControl : boolean = true;
 
 var useFixedUpdate : boolean = true;
 
+var shot : GameObject;
+
+var shotSpawn : Transform;
+
+var fireRate : float = 0.5;
+
+private var nextFire : float = 0.0;
+
 // For the next variables, @System.NonSerialized tells Unity to not serialize the variable or show it in the inspector view.
 // Very handy for organization!
 
@@ -332,6 +340,12 @@ function FixedUpdate () {
 }
 
 function Update () {
+
+	if (Input.GetButton("Fire1") && Time.time > nextFire) {
+		nextFire = Time.time + fireRate;
+		Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+	}
+	
 	if (!useFixedUpdate)
 		UpdateFunction();
 }
