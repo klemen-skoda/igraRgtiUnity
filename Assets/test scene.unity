@@ -85,6 +85,7 @@ GameObject:
   - 33: {fileID: 4645142}
   - 23: {fileID: 4645141}
   - 64: {fileID: 4645140}
+  - 114: {fileID: 4645144}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -147,6 +148,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 24
+--- !u!114 &4645144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4645139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &18452858
 Prefab:
   m_ObjectHideFlags: 0
@@ -454,6 +467,7 @@ GameObject:
   - 33: {fileID: 33037941}
   - 23: {fileID: 33037940}
   - 64: {fileID: 33037939}
+  - 114: {fileID: 33037943}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -516,6 +530,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 91
+--- !u!114 &33037943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 33037938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &34545754
 Prefab:
   m_ObjectHideFlags: 0
@@ -656,6 +682,7 @@ GameObject:
   - 33: {fileID: 57440547}
   - 23: {fileID: 57440546}
   - 64: {fileID: 57440545}
+  - 114: {fileID: 57440549}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -718,6 +745,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 15
+--- !u!114 &57440549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 57440544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &57895162
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +768,7 @@ GameObject:
   - 33: {fileID: 57895165}
   - 23: {fileID: 57895164}
   - 64: {fileID: 57895163}
+  - 114: {fileID: 57895167}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -791,6 +831,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 67
+--- !u!114 &57895167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 57895162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &59331982
 Prefab:
   m_ObjectHideFlags: 0
@@ -890,6 +942,7 @@ GameObject:
   - 33: {fileID: 77566713}
   - 23: {fileID: 77566712}
   - 64: {fileID: 77566711}
+  - 114: {fileID: 77566715}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -952,6 +1005,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 80
+--- !u!114 &77566715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 77566710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &77998294
 Prefab:
   m_ObjectHideFlags: 0
@@ -1008,6 +1073,78 @@ Prefab:
   m_RootGameObject: {fileID: 1414661545}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &82098238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+  m_PrefabInternal: {fileID: 277082757}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 82098241}
+  - 33: {fileID: 82098240}
+  - 23: {fileID: 82098239}
+  - 64: {fileID: 82098242}
+  m_Layer: 0
+  m_Name: modelFence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &82098239
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 67fee803cd572034c826650b1022f3c3,
+    type: 3}
+  m_PrefabInternal: {fileID: 277082757}
+  m_GameObject: {fileID: 82098238}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 6666ef44ca68f1749af627e462f231b9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &82098240
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 67fee803cd572034c826650b1022f3c3,
+    type: 3}
+  m_PrefabInternal: {fileID: 277082757}
+  m_GameObject: {fileID: 82098238}
+  m_Mesh: {fileID: 4300000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+--- !u!4 &82098241
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+  m_PrefabInternal: {fileID: 277082757}
+  m_GameObject: {fileID: 82098238}
+  m_LocalRotation: {x: .0577369034, y: .56512481, z: -.020421803, w: .82272929}
+  m_LocalPosition: {x: 68.5460892, y: 6.4616766, z: 1.84425354}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1080920198}
+  m_RootOrder: 2
+--- !u!64 &82098242
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 82098238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
 --- !u!1001 &92301493
 Prefab:
   m_ObjectHideFlags: 0
@@ -1667,6 +1804,7 @@ GameObject:
   - 33: {fileID: 159608118}
   - 23: {fileID: 159608117}
   - 64: {fileID: 159608116}
+  - 114: {fileID: 159608120}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -1729,6 +1867,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 90
+--- !u!114 &159608120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159608115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &165106560
 Prefab:
   m_ObjectHideFlags: 0
@@ -1784,6 +1934,7 @@ GameObject:
   - 33: {fileID: 180845525}
   - 23: {fileID: 180845524}
   - 64: {fileID: 180845523}
+  - 114: {fileID: 180845527}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -1846,6 +1997,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 81
+--- !u!114 &180845527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 180845522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &182671894
 Prefab:
   m_ObjectHideFlags: 0
@@ -2028,6 +2191,79 @@ Prefab:
   m_RootGameObject: {fileID: 159608115}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &192701949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+  m_PrefabInternal: {fileID: 1237625496}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 192701950}
+  - 33: {fileID: 192701953}
+  - 23: {fileID: 192701952}
+  - 64: {fileID: 192701951}
+  m_Layer: 0
+  m_Name: rock3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &192701950
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+  m_PrefabInternal: {fileID: 1237625496}
+  m_GameObject: {fileID: 192701949}
+  m_LocalRotation: {x: 3.19878922e-07, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 70.0088882, y: 5.7649765, z: -3.91075134}
+  m_LocalScale: {x: 4.56724215, y: 4.56724405, z: 4.56724405}
+  m_Children: []
+  m_Father: {fileID: 1080920198}
+  m_RootOrder: 0
+--- !u!64 &192701951
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6400000, guid: 24be8e1643b8a474fbb57fcda8a1c454,
+    type: 2}
+  m_PrefabInternal: {fileID: 1237625496}
+  m_GameObject: {fileID: 192701949}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 3ef8684d8b49f4d189bd2824374f328a, type: 3}
+--- !u!23 &192701952
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 24be8e1643b8a474fbb57fcda8a1c454,
+    type: 2}
+  m_PrefabInternal: {fileID: 1237625496}
+  m_GameObject: {fileID: 192701949}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: c25c85fb524f04ea5b7f96dd8eb6cebf, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &192701953
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 24be8e1643b8a474fbb57fcda8a1c454,
+    type: 2}
+  m_PrefabInternal: {fileID: 1237625496}
+  m_GameObject: {fileID: 192701949}
+  m_Mesh: {fileID: 4300000, guid: e776f876d5dea4ac9b419e25457df3ee, type: 3}
 --- !u!1 &193167242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,6 +2525,7 @@ GameObject:
   - 33: {fileID: 196619923}
   - 23: {fileID: 196619922}
   - 64: {fileID: 196619921}
+  - 114: {fileID: 196619925}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -2351,6 +2588,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 85
+--- !u!114 &196619925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 196619920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &198880423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2435,6 +2684,7 @@ GameObject:
   - 33: {fileID: 199987010}
   - 23: {fileID: 199987009}
   - 64: {fileID: 199987008}
+  - 114: {fileID: 199987012}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -2497,6 +2747,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 53
+--- !u!114 &199987012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 199987007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &203899921
 Prefab:
   m_ObjectHideFlags: 0
@@ -3063,6 +3325,7 @@ GameObject:
   - 33: {fileID: 237079506}
   - 23: {fileID: 237079505}
   - 64: {fileID: 237079504}
+  - 114: {fileID: 237079508}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -3125,6 +3388,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 65
+--- !u!114 &237079508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237079503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &245687723
 Prefab:
   m_ObjectHideFlags: 0
@@ -3192,6 +3467,7 @@ GameObject:
   - 33: {fileID: 261211053}
   - 23: {fileID: 261211052}
   - 64: {fileID: 261211051}
+  - 114: {fileID: 261211055}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -3254,6 +3530,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 13
+--- !u!114 &261211055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 261211050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &265724440
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,6 +3553,7 @@ GameObject:
   - 33: {fileID: 265724443}
   - 23: {fileID: 265724442}
   - 64: {fileID: 265724441}
+  - 114: {fileID: 265724445}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -3327,6 +3616,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 58
+--- !u!114 &265724445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 265724440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &269448749
 GameObject:
   m_ObjectHideFlags: 0
@@ -3338,6 +3639,7 @@ GameObject:
   - 33: {fileID: 269448752}
   - 23: {fileID: 269448751}
   - 64: {fileID: 269448750}
+  - 114: {fileID: 269448754}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -3400,6 +3702,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 48
+--- !u!114 &269448754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 269448749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &271248130
 GameObject:
   m_ObjectHideFlags: 0
@@ -3411,6 +3725,7 @@ GameObject:
   - 33: {fileID: 271248133}
   - 23: {fileID: 271248132}
   - 64: {fileID: 271248131}
+  - 114: {fileID: 271248135}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -3473,6 +3788,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 70
+--- !u!114 &271248135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 271248130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &271689181
 GameObject:
   m_ObjectHideFlags: 0
@@ -3484,6 +3811,7 @@ GameObject:
   - 33: {fileID: 271689184}
   - 23: {fileID: 271689183}
   - 64: {fileID: 271689182}
+  - 114: {fileID: 271689186}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -3546,6 +3874,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 32
+--- !u!114 &271689186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 271689181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
+--- !u!1001 &277082757
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1080920198}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 68.5460892
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.4616766
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.84425354
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: .0577369034
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .56512481
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -.020421803
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .82272929
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+  m_RootGameObject: {fileID: 82098238}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1001 &278832346
 Prefab:
   m_ObjectHideFlags: 0
@@ -3645,6 +4029,7 @@ GameObject:
   - 33: {fileID: 290174841}
   - 23: {fileID: 290174840}
   - 64: {fileID: 290174839}
+  - 114: {fileID: 290174843}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -3707,6 +4092,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 10
+--- !u!114 &290174843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 290174838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &291219599
 Prefab:
   m_ObjectHideFlags: 0
@@ -3846,6 +4243,7 @@ GameObject:
   - 33: {fileID: 296135131}
   - 23: {fileID: 296135130}
   - 64: {fileID: 296135129}
+  - 114: {fileID: 296135133}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -3908,6 +4306,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 16
+--- !u!114 &296135133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 296135128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &297471141
 Prefab:
   m_ObjectHideFlags: 0
@@ -4031,6 +4441,7 @@ GameObject:
   - 33: {fileID: 308646203}
   - 23: {fileID: 308646202}
   - 64: {fileID: 308646201}
+  - 114: {fileID: 308646205}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -4093,6 +4504,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 0
+--- !u!114 &308646205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 308646200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &320167635
 Prefab:
   m_ObjectHideFlags: 0
@@ -4160,6 +4583,7 @@ GameObject:
   - 33: {fileID: 322325755}
   - 23: {fileID: 322325754}
   - 64: {fileID: 322325753}
+  - 114: {fileID: 322325757}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -4222,6 +4646,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 84
+--- !u!114 &322325757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 322325752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &322328177
 Prefab:
   m_ObjectHideFlags: 0
@@ -4409,19 +4845,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1480921203}
     m_Modifications:
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -45.0900002
+      value: 27.5560875
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.42000008
+      value: 3.67167664
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -75.9899979
+      value: 1.23425293
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4441,7 +4877,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
       propertyPath: m_RootOrder
-      value: 40
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
       propertyPath: m_LocalScale.x
@@ -4449,11 +4885,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.40032363
+      value: 1.40032339
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
       propertyPath: m_LocalScale.z
-      value: 1.40032363
+      value: 1.40032387
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
@@ -4487,8 +4923,9 @@ Transform:
   m_Children:
   - {fileID: 1480921203}
   - {fileID: 713880985}
+  - {fileID: 1080920198}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
 --- !u!1001 &343021365
 Prefab:
   m_ObjectHideFlags: 0
@@ -4700,6 +5137,7 @@ GameObject:
   - 33: {fileID: 352042149}
   - 23: {fileID: 352042148}
   - 64: {fileID: 352042147}
+  - 114: {fileID: 352042151}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -4762,6 +5200,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 9
+--- !u!114 &352042151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 352042146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &354514876
 GameObject:
   m_ObjectHideFlags: 0
@@ -4808,6 +5258,7 @@ GameObject:
   - 33: {fileID: 359433284}
   - 23: {fileID: 359433283}
   - 64: {fileID: 359433282}
+  - 114: {fileID: 359433286}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -4870,6 +5321,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 73
+--- !u!114 &359433286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 359433281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &367923057
 GameObject:
   m_ObjectHideFlags: 0
@@ -4949,6 +5412,7 @@ GameObject:
   - 33: {fileID: 371010956}
   - 23: {fileID: 371010955}
   - 64: {fileID: 371010954}
+  - 114: {fileID: 371010958}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -5011,6 +5475,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 51
+--- !u!114 &371010958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 371010953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &373166449
 Prefab:
   m_ObjectHideFlags: 0
@@ -5181,6 +5657,7 @@ GameObject:
   - 33: {fileID: 396745460}
   - 23: {fileID: 396745459}
   - 64: {fileID: 396745458}
+  - 114: {fileID: 396745462}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -5243,6 +5720,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 43
+--- !u!114 &396745462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 396745457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &402135855
 Prefab:
   m_ObjectHideFlags: 0
@@ -5588,6 +6077,7 @@ GameObject:
   - 33: {fileID: 431307707}
   - 23: {fileID: 431307706}
   - 64: {fileID: 431307705}
+  - 114: {fileID: 431307709}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -5645,11 +6135,23 @@ Transform:
   m_PrefabInternal: {fileID: 332091939}
   m_GameObject: {fileID: 431307704}
   m_LocalRotation: {x: .0761375725, y: .105607688, z: -.601307929, w: .788339376}
-  m_LocalPosition: {x: -45.0900002, y: 5.42000008, z: -75.9899979}
-  m_LocalScale: {x: 1.40032375, y: 1.40032363, z: 1.40032363}
+  m_LocalPosition: {x: 27.5560875, y: 3.67167664, z: 1.23425293}
+  m_LocalScale: {x: 1.40032375, y: 1.40032339, z: 1.40032387}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1480921203}
+  m_RootOrder: 92
+--- !u!114 &431307709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 431307704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &432447621
 Prefab:
   m_ObjectHideFlags: 0
@@ -6068,6 +6570,7 @@ GameObject:
   - 33: {fileID: 454722723}
   - 23: {fileID: 454722722}
   - 64: {fileID: 454722721}
+  - 114: {fileID: 454722725}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -6130,6 +6633,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 82
+--- !u!114 &454722725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 454722720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &464015507
 Prefab:
   m_ObjectHideFlags: 0
@@ -6323,6 +6838,7 @@ GameObject:
   - 33: {fileID: 479578060}
   - 23: {fileID: 479578059}
   - 64: {fileID: 479578058}
+  - 114: {fileID: 479578062}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -6385,6 +6901,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 8
+--- !u!114 &479578062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 479578057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &487920047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6396,6 +6924,7 @@ GameObject:
   - 33: {fileID: 487920050}
   - 23: {fileID: 487920049}
   - 64: {fileID: 487920048}
+  - 114: {fileID: 487920052}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -6458,6 +6987,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 36
+--- !u!114 &487920052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 487920047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &503029881
 GameObject:
   m_ObjectHideFlags: 0
@@ -6612,6 +7153,7 @@ GameObject:
   - 33: {fileID: 511605020}
   - 23: {fileID: 511605019}
   - 64: {fileID: 511605018}
+  - 114: {fileID: 511605022}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -6674,6 +7216,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 64
+--- !u!114 &511605022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 511605017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &514643286
 GameObject:
   m_ObjectHideFlags: 0
@@ -8247,6 +8801,75 @@ Prefab:
   m_RootGameObject: {fileID: 1924850703}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &548333333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 548333337}
+  - 33: {fileID: 548333336}
+  - 23: {fileID: 548333334}
+  - 114: {fileID: 548333338}
+  m_Layer: 0
+  m_Name: maskPlane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &548333334
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 548333333}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 85f098c856ad69d4b957541600b063d9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &548333336
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 548333333}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &548333337
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 548333333}
+  m_LocalRotation: {x: 0, y: 0, z: -.778249323, w: .627955437}
+  m_LocalPosition: {x: 49.6660881, y: 10.2116766, z: 2.92424774}
+  m_LocalScale: {x: .909389198, y: .711093545, z: 1.0844413}
+  m_Children: []
+  m_Father: {fileID: 713880985}
+  m_RootOrder: 4
+--- !u!114 &548333338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 548333333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: 08070000
 --- !u!1001 &548605782
 Prefab:
   m_ObjectHideFlags: 0
@@ -9649,6 +10272,7 @@ GameObject:
   - 33: {fileID: 573085153}
   - 23: {fileID: 573085152}
   - 64: {fileID: 573085151}
+  - 114: {fileID: 573085155}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -9711,6 +10335,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 17
+--- !u!114 &573085155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573085150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &573454655
 GameObject:
   m_ObjectHideFlags: 0
@@ -9722,6 +10358,7 @@ GameObject:
   - 33: {fileID: 573454658}
   - 23: {fileID: 573454657}
   - 64: {fileID: 573454656}
+  - 114: {fileID: 573454660}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -9784,6 +10421,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 39
+--- !u!114 &573454660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573454655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &573731449
 GameObject:
   m_ObjectHideFlags: 0
@@ -9924,6 +10573,7 @@ GameObject:
   - 33: {fileID: 603270899}
   - 23: {fileID: 603270898}
   - 64: {fileID: 603270897}
+  - 114: {fileID: 603270901}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -9986,6 +10636,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 34
+--- !u!114 &603270901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 603270896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &603532401
 Prefab:
   m_ObjectHideFlags: 0
@@ -11459,6 +12121,7 @@ GameObject:
   - 33: {fileID: 638992180}
   - 23: {fileID: 638992179}
   - 64: {fileID: 638992178}
+  - 114: {fileID: 638992182}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -11521,6 +12184,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 23
+--- !u!114 &638992182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 638992177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &647378969
 Prefab:
   m_ObjectHideFlags: 0
@@ -11855,6 +12530,7 @@ GameObject:
   - 33: {fileID: 654612588}
   - 23: {fileID: 654612587}
   - 64: {fileID: 654612586}
+  - 114: {fileID: 654612590}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -11917,6 +12593,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 59
+--- !u!114 &654612590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 654612585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &657804636
 GameObject:
   m_ObjectHideFlags: 0
@@ -11928,6 +12616,7 @@ GameObject:
   - 33: {fileID: 657804639}
   - 23: {fileID: 657804638}
   - 64: {fileID: 657804637}
+  - 114: {fileID: 657804641}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -11990,6 +12679,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 41
+--- !u!114 &657804641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 657804636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &660759449
 GameObject:
   m_ObjectHideFlags: 0
@@ -13518,6 +14219,7 @@ GameObject:
   - 33: {fileID: 692639882}
   - 23: {fileID: 692639881}
   - 64: {fileID: 692639880}
+  - 114: {fileID: 692639884}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -13580,6 +14282,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 44
+--- !u!114 &692639884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 692639879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &693817206
 GameObject:
   m_ObjectHideFlags: 0
@@ -13773,6 +14487,7 @@ GameObject:
   - 33: {fileID: 701168359}
   - 23: {fileID: 701168358}
   - 64: {fileID: 701168357}
+  - 114: {fileID: 701168361}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -13835,6 +14550,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 77
+--- !u!114 &701168361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701168356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &701837354
 Prefab:
   m_ObjectHideFlags: 0
@@ -14073,6 +14800,7 @@ GameObject:
   - 33: {fileID: 711924930}
   - 23: {fileID: 711924929}
   - 64: {fileID: 711924928}
+  - 114: {fileID: 711924932}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -14135,6 +14863,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 5
+--- !u!114 &711924932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 711924927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &712446842
 Prefab:
   m_ObjectHideFlags: 0
@@ -14220,6 +14960,8 @@ Transform:
   - {fileID: 1416422646}
   - {fileID: 785978924}
   - {fileID: 322440426}
+  - {fileID: 548333337}
+  - {fileID: 1751087594}
   m_Father: {fileID: 340919189}
   m_RootOrder: 1
 --- !u!1001 &718996196
@@ -14321,6 +15063,7 @@ GameObject:
   - 33: {fileID: 727536620}
   - 23: {fileID: 727536619}
   - 64: {fileID: 727536618}
+  - 114: {fileID: 727536622}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -14383,6 +15126,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 27
+--- !u!114 &727536622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 727536617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &729597723
 GameObject:
   m_ObjectHideFlags: 0
@@ -14394,6 +15149,7 @@ GameObject:
   - 33: {fileID: 729597726}
   - 23: {fileID: 729597725}
   - 64: {fileID: 729597724}
+  - 114: {fileID: 729597728}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -14456,6 +15212,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 33
+--- !u!114 &729597728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 729597723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
+--- !u!1 &739338874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+  m_PrefabInternal: {fileID: 1460660812}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 739338877}
+  - 33: {fileID: 739338876}
+  - 23: {fileID: 739338875}
+  - 64: {fileID: 739338878}
+  m_Layer: 0
+  m_Name: modelFence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &739338875
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 67fee803cd572034c826650b1022f3c3,
+    type: 3}
+  m_PrefabInternal: {fileID: 1460660812}
+  m_GameObject: {fileID: 739338874}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 6666ef44ca68f1749af627e462f231b9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &739338876
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 67fee803cd572034c826650b1022f3c3,
+    type: 3}
+  m_PrefabInternal: {fileID: 1460660812}
+  m_GameObject: {fileID: 739338874}
+  m_Mesh: {fileID: 4300000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+--- !u!4 &739338877
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+  m_PrefabInternal: {fileID: 1460660812}
+  m_GameObject: {fileID: 739338874}
+  m_LocalRotation: {x: 0, y: .177096322, z: 0, w: .984193563}
+  m_LocalPosition: {x: 58.3060875, y: 6.62167645, z: 9.50424957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1080920198}
+  m_RootOrder: 1
+--- !u!64 &739338878
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 739338874}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
 --- !u!1 &739835807
 GameObject:
   m_ObjectHideFlags: 0
@@ -14613,6 +15453,7 @@ GameObject:
   - 33: {fileID: 752815281}
   - 23: {fileID: 752815280}
   - 64: {fileID: 752815279}
+  - 114: {fileID: 752815283}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -14675,6 +15516,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 52
+--- !u!114 &752815283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 752815278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &754662585
 Prefab:
   m_ObjectHideFlags: 0
@@ -15292,6 +16145,7 @@ GameObject:
   - 33: {fileID: 830455161}
   - 23: {fileID: 830455160}
   - 64: {fileID: 830455159}
+  - 114: {fileID: 830455163}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -15354,6 +16208,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 79
+--- !u!114 &830455163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 830455158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &836098031
 Prefab:
   m_ObjectHideFlags: 0
@@ -15509,6 +16375,7 @@ GameObject:
   - 33: {fileID: 844018587}
   - 23: {fileID: 844018586}
   - 64: {fileID: 844018585}
+  - 114: {fileID: 844018589}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -15571,6 +16438,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 31
+--- !u!114 &844018589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 844018584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &850168674
 GameObject:
   m_ObjectHideFlags: 0
@@ -15758,6 +16637,7 @@ GameObject:
   - 33: {fileID: 858135508}
   - 23: {fileID: 858135507}
   - 64: {fileID: 858135506}
+  - 114: {fileID: 858135510}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -15820,6 +16700,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 57
+--- !u!114 &858135510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 858135505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &868518720
 GameObject:
   m_ObjectHideFlags: 0
@@ -15861,6 +16753,7 @@ GameObject:
   - 33: {fileID: 878209837}
   - 23: {fileID: 878209836}
   - 64: {fileID: 878209835}
+  - 114: {fileID: 878209839}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -15923,6 +16816,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 42
+--- !u!114 &878209839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 878209834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &880307886
 GameObject:
   m_ObjectHideFlags: 0
@@ -16479,6 +17384,7 @@ GameObject:
   - 33: {fileID: 940019087}
   - 23: {fileID: 940019086}
   - 64: {fileID: 940019085}
+  - 114: {fileID: 940019089}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -16541,6 +17447,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 7
+--- !u!114 &940019089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 940019084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &946138550
 GameObject:
   m_ObjectHideFlags: 0
@@ -16909,6 +17827,7 @@ GameObject:
   - 33: {fileID: 992537392}
   - 23: {fileID: 992537391}
   - 64: {fileID: 992537390}
+  - 114: {fileID: 992537394}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -16971,6 +17890,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 3
+--- !u!114 &992537394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 992537389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1013179749
 GameObject:
   m_ObjectHideFlags: 0
@@ -17055,6 +17986,7 @@ GameObject:
   - 33: {fileID: 1021391629}
   - 23: {fileID: 1021391628}
   - 64: {fileID: 1021391627}
+  - 114: {fileID: 1021391631}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -17117,6 +18049,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 72
+--- !u!114 &1021391631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1021391626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1021857693
 Prefab:
   m_ObjectHideFlags: 0
@@ -17263,6 +18207,7 @@ GameObject:
   - 33: {fileID: 1033326967}
   - 23: {fileID: 1033326966}
   - 64: {fileID: 1033326965}
+  - 114: {fileID: 1033326969}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -17325,6 +18270,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 14
+--- !u!114 &1033326969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1033326964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1057700347
 Prefab:
   m_ObjectHideFlags: 0
@@ -17492,6 +18449,7 @@ GameObject:
   - 33: {fileID: 1069171658}
   - 23: {fileID: 1069171657}
   - 64: {fileID: 1069171656}
+  - 114: {fileID: 1069171660}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -17554,6 +18512,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 1
+--- !u!114 &1069171660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1069171655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1070707319
 Prefab:
   m_ObjectHideFlags: 0
@@ -17718,6 +18688,36 @@ Prefab:
   m_RootGameObject: {fileID: 573731449}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1080920197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1080920198}
+  m_Layer: 0
+  m_Name: PredVhodi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1080920198
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1080920197}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 192701950}
+  - {fileID: 739338877}
+  - {fileID: 82098241}
+  m_Father: {fileID: 340919189}
+  m_RootOrder: 2
 --- !u!1 &1081526344
 GameObject:
   m_ObjectHideFlags: 0
@@ -17729,6 +18729,7 @@ GameObject:
   - 33: {fileID: 1081526347}
   - 23: {fileID: 1081526346}
   - 64: {fileID: 1081526345}
+  - 114: {fileID: 1081526349}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -17791,6 +18792,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 6
+--- !u!114 &1081526349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1081526344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1083877122
 GameObject:
   m_ObjectHideFlags: 0
@@ -19501,6 +20514,7 @@ GameObject:
   - 33: {fileID: 1157224617}
   - 23: {fileID: 1157224616}
   - 64: {fileID: 1157224615}
+  - 114: {fileID: 1157224619}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -19563,6 +20577,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 26
+--- !u!114 &1157224619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1157224614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1169581501
 Prefab:
   m_ObjectHideFlags: 0
@@ -19844,6 +20870,7 @@ GameObject:
   - 33: {fileID: 1199366484}
   - 23: {fileID: 1199366483}
   - 64: {fileID: 1199366482}
+  - 114: {fileID: 1199366486}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -19906,6 +20933,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 46
+--- !u!114 &1199366486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1199366481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1210108963
 GameObject:
   m_ObjectHideFlags: 0
@@ -20219,6 +21258,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 623356243}
   m_RootOrder: 8
+--- !u!1001 &1237625496
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1080920198}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 70.0088882
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.7649765
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.91075134
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 3.19878922e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4.56724215
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 4.56724405
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4.56724405
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 2}
+  m_RootGameObject: {fileID: 192701949}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1001 &1243687123
 Prefab:
   m_ObjectHideFlags: 0
@@ -20430,6 +21525,7 @@ GameObject:
   - 33: {fileID: 1257417246}
   - 23: {fileID: 1257417245}
   - 64: {fileID: 1257417244}
+  - 114: {fileID: 1257417248}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -20492,6 +21588,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 60
+--- !u!114 &1257417248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1257417243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1261081029
 GameObject:
   m_ObjectHideFlags: 0
@@ -20649,6 +21757,7 @@ GameObject:
   - 33: {fileID: 1263925769}
   - 23: {fileID: 1263925768}
   - 64: {fileID: 1263925767}
+  - 114: {fileID: 1263925771}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -20711,6 +21820,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 20
+--- !u!114 &1263925771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263925766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1266246295
 GameObject:
   m_ObjectHideFlags: 0
@@ -21023,6 +22144,7 @@ GameObject:
   - 33: {fileID: 1298070445}
   - 23: {fileID: 1298070444}
   - 64: {fileID: 1298070443}
+  - 114: {fileID: 1298070447}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -21085,6 +22207,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 69
+--- !u!114 &1298070447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1298070442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1302352952
 GameObject:
   m_ObjectHideFlags: 0
@@ -21639,6 +22773,7 @@ GameObject:
   - 33: {fileID: 1370225412}
   - 23: {fileID: 1370225411}
   - 64: {fileID: 1370225410}
+  - 114: {fileID: 1370225414}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -21701,6 +22836,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 63
+--- !u!114 &1370225414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1370225409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1373093023
 GameObject:
   m_ObjectHideFlags: 0
@@ -21712,6 +22859,7 @@ GameObject:
   - 33: {fileID: 1373093026}
   - 23: {fileID: 1373093025}
   - 64: {fileID: 1373093024}
+  - 114: {fileID: 1373093028}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -21774,6 +22922,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 74
+--- !u!114 &1373093028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1373093023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1381197258
 Prefab:
   m_ObjectHideFlags: 0
@@ -22093,6 +23253,7 @@ GameObject:
   - 33: {fileID: 1414661548}
   - 23: {fileID: 1414661547}
   - 64: {fileID: 1414661546}
+  - 114: {fileID: 1414661550}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -22155,6 +23316,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 76
+--- !u!114 &1414661550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1414661545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1415141788
 GameObject:
   m_ObjectHideFlags: 0
@@ -22166,6 +23339,7 @@ GameObject:
   - 33: {fileID: 1415141791}
   - 23: {fileID: 1415141790}
   - 64: {fileID: 1415141789}
+  - 114: {fileID: 1415141793}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -22228,6 +23402,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 83
+--- !u!114 &1415141793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415141788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1416422645
 GameObject:
   m_ObjectHideFlags: 0
@@ -22385,6 +23571,7 @@ GameObject:
   - 33: {fileID: 1430417266}
   - 23: {fileID: 1430417265}
   - 64: {fileID: 1430417264}
+  - 114: {fileID: 1430417268}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -22447,6 +23634,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 4
+--- !u!114 &1430417268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1430417263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1431606204
 GameObject:
   m_ObjectHideFlags: 0
@@ -22690,6 +23889,50 @@ Prefab:
   m_RootGameObject: {fileID: 454155120}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1001 &1460660812
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1080920198}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 58.3060875
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.62167645
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.50424957
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .177096322
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .984193563
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 67fee803cd572034c826650b1022f3c3, type: 3}
+  m_RootGameObject: {fileID: 739338874}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1461856341
 GameObject:
   m_ObjectHideFlags: 0
@@ -22701,6 +23944,7 @@ GameObject:
   - 33: {fileID: 1461856344}
   - 23: {fileID: 1461856343}
   - 64: {fileID: 1461856342}
+  - 114: {fileID: 1461856346}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -22763,6 +24007,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 88
+--- !u!114 &1461856346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1461856341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1469128183
 GameObject:
   m_ObjectHideFlags: 0
@@ -23055,6 +24311,7 @@ Transform:
   - {fileID: 1522905006}
   - {fileID: 159608119}
   - {fileID: 33037942}
+  - {fileID: 431307708}
   m_Father: {fileID: 340919189}
   m_RootOrder: 0
 --- !u!1 &1482152915
@@ -25499,6 +26756,7 @@ GameObject:
   - 33: {fileID: 1522905005}
   - 23: {fileID: 1522905004}
   - 64: {fileID: 1522905003}
+  - 114: {fileID: 1522905007}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -25561,6 +26819,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 89
+--- !u!114 &1522905007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1522905002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1530429357
 GameObject:
   m_ObjectHideFlags: 0
@@ -25572,6 +26842,7 @@ GameObject:
   - 33: {fileID: 1530429360}
   - 23: {fileID: 1530429359}
   - 64: {fileID: 1530429358}
+  - 114: {fileID: 1530429362}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -25634,6 +26905,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 55
+--- !u!114 &1530429362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1530429357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1530914157
 Prefab:
   m_ObjectHideFlags: 0
@@ -25839,6 +27122,7 @@ GameObject:
   - 33: {fileID: 1551266087}
   - 23: {fileID: 1551266086}
   - 64: {fileID: 1551266085}
+  - 114: {fileID: 1551266089}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -25901,6 +27185,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 19
+--- !u!114 &1551266089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551266084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1567483872
 GameObject:
   m_ObjectHideFlags: 0
@@ -26050,6 +27346,7 @@ GameObject:
   - 33: {fileID: 1576309465}
   - 23: {fileID: 1576309464}
   - 64: {fileID: 1576309463}
+  - 114: {fileID: 1576309467}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -26112,6 +27409,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 12
+--- !u!114 &1576309467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1576309462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1576381733
 GameObject:
   m_ObjectHideFlags: 0
@@ -26123,6 +27432,7 @@ GameObject:
   - 33: {fileID: 1576381736}
   - 23: {fileID: 1576381735}
   - 64: {fileID: 1576381734}
+  - 114: {fileID: 1576381738}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -26185,6 +27495,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 35
+--- !u!114 &1576381738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1576381733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1576498107
 GameObject:
   m_ObjectHideFlags: 0
@@ -26504,6 +27826,7 @@ GameObject:
   - 33: {fileID: 1612110733}
   - 23: {fileID: 1612110732}
   - 64: {fileID: 1612110731}
+  - 114: {fileID: 1612110735}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -26566,6 +27889,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 22
+--- !u!114 &1612110735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1612110730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1612433499
 Prefab:
   m_ObjectHideFlags: 0
@@ -27800,6 +29135,7 @@ GameObject:
   - 33: {fileID: 1624498711}
   - 23: {fileID: 1624498710}
   - 64: {fileID: 1624498709}
+  - 114: {fileID: 1624498713}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -27862,6 +29198,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 68
+--- !u!114 &1624498713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1624498708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1630866669
 GameObject:
   m_ObjectHideFlags: 0
@@ -27873,6 +29221,7 @@ GameObject:
   - 33: {fileID: 1630866672}
   - 23: {fileID: 1630866671}
   - 64: {fileID: 1630866670}
+  - 114: {fileID: 1630866674}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -27935,6 +29284,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 40
+--- !u!114 &1630866674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1630866669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1630903693
 Prefab:
   m_ObjectHideFlags: 0
@@ -27990,6 +29351,7 @@ GameObject:
   - 33: {fileID: 1631775619}
   - 23: {fileID: 1631775618}
   - 64: {fileID: 1631775617}
+  - 114: {fileID: 1631775621}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -28052,6 +29414,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 66
+--- !u!114 &1631775621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1631775616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1636326343
 GameObject:
   m_ObjectHideFlags: 0
@@ -28218,6 +29592,7 @@ GameObject:
   - 33: {fileID: 1643279852}
   - 23: {fileID: 1643279851}
   - 64: {fileID: 1643279850}
+  - 114: {fileID: 1643279854}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -28280,6 +29655,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 28
+--- !u!114 &1643279854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643279849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1656443986
 GameObject:
   m_ObjectHideFlags: 0
@@ -28291,6 +29678,7 @@ GameObject:
   - 33: {fileID: 1656443989}
   - 23: {fileID: 1656443988}
   - 64: {fileID: 1656443987}
+  - 114: {fileID: 1656443991}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -28353,6 +29741,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 21
+--- !u!114 &1656443991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1656443986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1661694850
 Prefab:
   m_ObjectHideFlags: 0
@@ -28920,6 +30320,7 @@ GameObject:
   - 33: {fileID: 1691858751}
   - 23: {fileID: 1691858750}
   - 64: {fileID: 1691858749}
+  - 114: {fileID: 1691858753}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -28982,6 +30383,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 2
+--- !u!114 &1691858753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1691858748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1697916636
 Prefab:
   m_ObjectHideFlags: 0
@@ -29049,6 +30462,7 @@ GameObject:
   - 33: {fileID: 1698763597}
   - 23: {fileID: 1698763596}
   - 64: {fileID: 1698763595}
+  - 114: {fileID: 1698763599}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -29111,6 +30525,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 71
+--- !u!114 &1698763599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698763594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1700292624
 Prefab:
   m_ObjectHideFlags: 0
@@ -29170,6 +30596,7 @@ GameObject:
   - 33: {fileID: 1711984779}
   - 23: {fileID: 1711984778}
   - 64: {fileID: 1711984777}
+  - 114: {fileID: 1711984781}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -29232,6 +30659,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 49
+--- !u!114 &1711984781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1711984776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1715098873
 GameObject:
   m_ObjectHideFlags: 0
@@ -29243,6 +30682,7 @@ GameObject:
   - 33: {fileID: 1715098876}
   - 23: {fileID: 1715098875}
   - 64: {fileID: 1715098874}
+  - 114: {fileID: 1715098878}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -29305,6 +30745,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 54
+--- !u!114 &1715098878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1715098873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1725226729
 GameObject:
   m_ObjectHideFlags: 0
@@ -29316,6 +30768,7 @@ GameObject:
   - 33: {fileID: 1725226732}
   - 23: {fileID: 1725226731}
   - 64: {fileID: 1725226730}
+  - 114: {fileID: 1725226734}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -29378,6 +30831,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 11
+--- !u!114 &1725226734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1725226729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1728702266
 Prefab:
   m_ObjectHideFlags: 0
@@ -29433,6 +30898,7 @@ GameObject:
   - 33: {fileID: 1728915984}
   - 23: {fileID: 1728915983}
   - 64: {fileID: 1728915982}
+  - 114: {fileID: 1728915986}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -29495,6 +30961,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 25
+--- !u!114 &1728915986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1728915981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1750043869
 GameObject:
   m_ObjectHideFlags: 0
@@ -29506,6 +30984,7 @@ GameObject:
   - 33: {fileID: 1750043872}
   - 23: {fileID: 1750043871}
   - 64: {fileID: 1750043870}
+  - 114: {fileID: 1750043874}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -29568,6 +31047,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 18
+--- !u!114 &1750043874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750043869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
+--- !u!1 &1751087593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1751087594}
+  - 33: {fileID: 1751087597}
+  - 23: {fileID: 1751087596}
+  - 114: {fileID: 1751087595}
+  m_Layer: 0
+  m_Name: maskPlane1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1751087594
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1751087593}
+  m_LocalRotation: {x: .529182434, y: -.848402441, z: .0112398295, w: -.00727538951}
+  m_LocalPosition: {x: 8.58100128, y: 2.34500027, z: 3.59300232}
+  m_LocalScale: {x: .514647961, y: .849939585, z: .51710701}
+  m_Children: []
+  m_Father: {fileID: 713880985}
+  m_RootOrder: 5
+--- !u!114 &1751087595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1751087593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: 08070000
+--- !u!23 &1751087596
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1751087593}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 85f098c856ad69d4b957541600b063d9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1751087597
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1751087593}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1754510603
 GameObject:
   m_ObjectHideFlags: 0
@@ -29950,6 +31510,7 @@ GameObject:
   - 33: {fileID: 1794765095}
   - 23: {fileID: 1794765094}
   - 64: {fileID: 1794765093}
+  - 114: {fileID: 1794765097}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -30012,6 +31573,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 47
+--- !u!114 &1794765097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1794765092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1807124965
 GameObject:
   m_ObjectHideFlags: 0
@@ -31178,6 +32751,7 @@ GameObject:
   - 33: {fileID: 1825919913}
   - 23: {fileID: 1825919912}
   - 64: {fileID: 1825919911}
+  - 114: {fileID: 1825919915}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -31240,6 +32814,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 45
+--- !u!114 &1825919915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825919910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1826712726
 Prefab:
   m_ObjectHideFlags: 0
@@ -31502,6 +33088,7 @@ GameObject:
   - 33: {fileID: 1859377547}
   - 23: {fileID: 1859377546}
   - 64: {fileID: 1859377545}
+  - 114: {fileID: 1859377549}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -31564,6 +33151,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 29
+--- !u!114 &1859377549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859377544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1859561424
 Prefab:
   m_ObjectHideFlags: 0
@@ -31619,6 +33218,7 @@ GameObject:
   - 33: {fileID: 1861002005}
   - 23: {fileID: 1861002004}
   - 64: {fileID: 1861002003}
+  - 114: {fileID: 1861002007}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -31681,6 +33281,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 62
+--- !u!114 &1861002007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1861002002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1862659814
 GameObject:
   m_ObjectHideFlags: 0
@@ -31692,6 +33304,7 @@ GameObject:
   - 33: {fileID: 1862659817}
   - 23: {fileID: 1862659816}
   - 64: {fileID: 1862659815}
+  - 114: {fileID: 1862659819}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -31754,6 +33367,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 37
+--- !u!114 &1862659819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1862659814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1866544483
 GameObject:
   m_ObjectHideFlags: 0
@@ -31933,6 +33558,7 @@ GameObject:
   - 33: {fileID: 1876314688}
   - 23: {fileID: 1876314687}
   - 64: {fileID: 1876314686}
+  - 114: {fileID: 1876314690}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -31995,6 +33621,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 86
+--- !u!114 &1876314690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1876314685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1886548100
 Prefab:
   m_ObjectHideFlags: 0
@@ -32407,6 +34045,7 @@ GameObject:
   - 33: {fileID: 1953678226}
   - 23: {fileID: 1953678225}
   - 64: {fileID: 1953678224}
+  - 114: {fileID: 1953678228}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -32469,6 +34108,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 87
+--- !u!114 &1953678228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1953678223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &1963603574
 GameObject:
   m_ObjectHideFlags: 0
@@ -32860,6 +34511,7 @@ GameObject:
   - 33: {fileID: 1991727092}
   - 23: {fileID: 1991727091}
   - 64: {fileID: 1991727090}
+  - 114: {fileID: 1991727094}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -32922,6 +34574,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 50
+--- !u!114 &1991727094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1991727089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &1992290656
 Prefab:
   m_ObjectHideFlags: 0
@@ -33077,6 +34741,7 @@ GameObject:
   - 33: {fileID: 2014350169}
   - 23: {fileID: 2014350168}
   - 64: {fileID: 2014350167}
+  - 114: {fileID: 2014350171}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -33139,6 +34804,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 38
+--- !u!114 &2014350171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2014350166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &2016580577
 Prefab:
   m_ObjectHideFlags: 0
@@ -33694,6 +35371,7 @@ GameObject:
   - 33: {fileID: 2069149084}
   - 23: {fileID: 2069149083}
   - 64: {fileID: 2069149082}
+  - 114: {fileID: 2069149086}
   m_Layer: 0
   m_Name: rock4
   m_TagString: Untagged
@@ -33756,6 +35434,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 75
+--- !u!114 &2069149086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069149081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1001 &2081488012
 Prefab:
   m_ObjectHideFlags: 0
@@ -33955,6 +35645,7 @@ GameObject:
   - 33: {fileID: 2101911420}
   - 23: {fileID: 2101911419}
   - 64: {fileID: 2101911418}
+  - 114: {fileID: 2101911422}
   m_Layer: 0
   m_Name: rock3
   m_TagString: Untagged
@@ -34017,6 +35708,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 78
+--- !u!114 &2101911422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2101911417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &2115654366
 GameObject:
   m_ObjectHideFlags: 0
@@ -34154,6 +35857,7 @@ GameObject:
   - 33: {fileID: 2121122200}
   - 23: {fileID: 2121122199}
   - 64: {fileID: 2121122198}
+  - 114: {fileID: 2121122202}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -34216,6 +35920,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 56
+--- !u!114 &2121122202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2121122197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &2128725594
 GameObject:
   m_ObjectHideFlags: 0
@@ -34309,6 +36025,7 @@ GameObject:
   - 33: {fileID: 2130057892}
   - 23: {fileID: 2130057891}
   - 64: {fileID: 2130057890}
+  - 114: {fileID: 2130057894}
   m_Layer: 0
   m_Name: rock1
   m_TagString: Untagged
@@ -34371,6 +36088,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 61
+--- !u!114 &2130057894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130057889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
 --- !u!1 &2134333156
 GameObject:
   m_ObjectHideFlags: 0
@@ -34464,6 +36193,7 @@ GameObject:
   - 33: {fileID: 2141260209}
   - 23: {fileID: 2141260208}
   - 64: {fileID: 2141260207}
+  - 114: {fileID: 2141260211}
   m_Layer: 0
   m_Name: rock2
   m_TagString: Untagged
@@ -34526,3 +36256,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1480921203}
   m_RootOrder: 30
+--- !u!114 &2141260211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2141260206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a517d019a29f4434e9ebf40ef880ebe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_queues: dc050000
