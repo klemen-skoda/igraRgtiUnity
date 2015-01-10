@@ -234,9 +234,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canControl: 1
   useFixedUpdate: 1
-  shot: {fileID: 0}
-  shotSpawn: {fileID: 0}
-  fireRate: .5
   movement:
     maxForwardSpeed: 6
     maxSidewaysSpeed: 6
