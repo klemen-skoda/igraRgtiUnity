@@ -4,7 +4,7 @@ using System.Collections;
 public class destroyBolt : MonoBehaviour {
 
 	public int boltDamage = 20;
-
+	
 	enemyHP enemy;
 
 	void OnTriggerEnter(Collider other) 
@@ -14,7 +14,9 @@ public class destroyBolt : MonoBehaviour {
 			return;
 		}
 		if(!other.isTrigger){
+
 			Destroy(gameObject);
+
 			if(other.tag=="Spider"){
 
 				enemy = other.GetComponent <enemyHP> ();

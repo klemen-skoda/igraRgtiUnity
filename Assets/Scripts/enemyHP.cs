@@ -10,7 +10,7 @@ public class enemyHP : MonoBehaviour
 	public AudioClip deathClip;
 	public AudioClip hit;
 	
-	
+	ParticleSystem hitParticles;
 	CapsuleCollider capsuleCollider;
 	bool isDead;
 	bool isSinking;
@@ -20,6 +20,7 @@ public class enemyHP : MonoBehaviour
 	{
 		capsuleCollider = GetComponent <CapsuleCollider> ();
 		currentHealth = startingHealth;
+		hitParticles = GetComponentInChildren <ParticleSystem> ();
 	}
 	
 	
@@ -39,6 +40,9 @@ public class enemyHP : MonoBehaviour
 		
 		audio.PlayOneShot(hit);
 		currentHealth -= amount;
+
+		hitParticles.transform.position = hitPoint;
+		hitParticles.Play();
 
 		if(currentHealth <= 0)
 		{
