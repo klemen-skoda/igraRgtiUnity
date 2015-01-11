@@ -60,4 +60,5 @@ public class MouseLook : MonoBehaviour {
 		if (rigidbody)
 			rigidbody.freezeRotation = true;
 	}
+	
 }
