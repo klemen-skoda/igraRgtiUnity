@@ -17,8 +17,6 @@ public class playerHP : MonoBehaviour
 	
 
 	//PlayerShooting playerShooting;
-	CharacterController cc;
-	MouseLook ms;
 	bool isDead;
 	bool damaged;
 	int hurtSound = 0;
@@ -28,8 +26,6 @@ public class playerHP : MonoBehaviour
 	{
 		//playerShooting = GetComponentInChildren <PlayerShooting> ();
 		currentHealth = startingHealth;
-		cc = GetComponent <CharacterController> ();
-		ms = GetComponent <MouseLook> ();
 	}
 	
 	
@@ -76,11 +72,6 @@ public class playerHP : MonoBehaviour
 	{
 		isDead = true;
 		audio.PlayOneShot (deathClip);
-
-
-		cc.enabled = false;
-		ms.sensitivityX = 0;
-		ms.sensitivityY = 0;
 
 		GameObject manager = GameObject.Find ("_manager");
 		manager.GetComponent<gameManager> ().gameOver ();

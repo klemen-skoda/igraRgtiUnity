@@ -7,7 +7,7 @@ public class gameManager : MonoBehaviour {
 	void Start () {
 		pauseGame ();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if ( Input.GetButtonDown( "Cancel" )) {
@@ -43,6 +43,7 @@ public class gameManager : MonoBehaviour {
 		selectCamera ("MainCamera");
 		Screen.showCursor = false;
 		Time.timeScale = 1;
+		enableControll ();
 	}
 
 	public void pauseGame(){
@@ -51,6 +52,7 @@ public class gameManager : MonoBehaviour {
 		//selectCamera ("MenuCamera");
 		enablePanel ("mainMenu");
 		Screen.showCursor = true;
+		disableControl ();
 	}
 
 	public void gameOver(){
@@ -58,11 +60,26 @@ public class gameManager : MonoBehaviour {
 		Time.timeScale = 0;
 		enablePanel ("gameOver");
 		Screen.showCursor = true;
+		disableControl ();
 
 	}
 
 	public void exitGame(){
 		Application.Quit ();
+	}
+
+	void disableControl(){
+		GameObject player = GameObject.Find ("Player");
+		player.GetComponent<CharacterController> ().enabled = false;
+		player.GetComponent<MouseLook> ().sensitivityX = 0;
+		player.GetComponent<MouseLook> ().sensitivityY = 0;
+	}
+
+	void enableControll(){
+		GameObject player = GameObject.Find ("Player");
+		player.GetComponent<CharacterController> ().enabled = true;
+		player.GetComponent<MouseLook> ().sensitivityX = 3;
+		player.GetComponent<MouseLook> ().sensitivityY = 3;
 	}
 
 }
