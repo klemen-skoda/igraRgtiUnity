@@ -81,5 +81,4 @@ public class gameManager : MonoBehaviour {
 		player.GetComponent<MouseLook> ().sensitivityX = 3;
 		player.GetComponent<MouseLook> ().sensitivityY = 3;
 	}
-
 }
