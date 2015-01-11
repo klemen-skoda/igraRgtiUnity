@@ -33,6 +33,10 @@ public class gameManager : MonoBehaviour {
 		}
 	}
 
+	public void restartGame(){
+		Application.LoadLevel (0);
+	}
+
 	public void startGame(){
 
 		enablePanel ("hud");
