@@ -1715,6 +1715,7 @@ MonoBehaviour:
   scoreValue: 80
   deathClip: {fileID: 8300000, guid: 66288a954c6836b4d8c8424e91fcc309, type: 3}
   hit: {fileID: 8300000, guid: 8c80b7b4445ae024f99a6d5833fa49f5, type: 3}
+  healthPack: {fileID: 139434, guid: e55732fdc614e174390803a10090113c, type: 2}
 --- !u!135 &13517636
 SphereCollider:
   m_ObjectHideFlags: 1

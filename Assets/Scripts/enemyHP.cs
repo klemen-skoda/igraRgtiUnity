@@ -9,6 +9,7 @@ public class enemyHP : MonoBehaviour
 	public int scoreValue = 10;
 	public AudioClip deathClip;
 	public AudioClip hit;
+	public GameObject healthPack;
 	
 	ParticleSystem hitParticles;
 	CapsuleCollider capsuleCollider;
@@ -58,6 +59,16 @@ public class enemyHP : MonoBehaviour
 		capsuleCollider.isTrigger = true;
 		animation.CrossFade ("Death");
 		audio.PlayOneShot(deathClip);
+
+		if (healthPack != null) {
+			float x = transform.position.x;
+			float y = transform.position.y + 1.5f;
+			float z = transform.position.z;
+
+			transform.position = new Vector3(x,y,z);
+
+			Instantiate(healthPack, transform.position, transform.rotation);
+		}
 	}
 	
 	

@@ -14,9 +14,11 @@ public class playerHP : MonoBehaviour
 	public AudioClip hurt1;
 	public AudioClip hurt2;
 	public AudioClip hurt3;
+	public AudioClip healed;
 	
-
-	//PlayerShooting playerShooting;
+	
+	CharacterController cc;
+	MouseLook ms;
 	bool isDead;
 	bool damaged;
 	int hurtSound = 0;
@@ -24,8 +26,9 @@ public class playerHP : MonoBehaviour
 	
 	void Awake ()
 	{
-		//playerShooting = GetComponentInChildren <PlayerShooting> ();
 		currentHealth = startingHealth;
+		cc = GetComponent <CharacterController> ();
+		ms = GetComponent <MouseLook> ();
 	}
 	
 	
@@ -41,7 +44,18 @@ public class playerHP : MonoBehaviour
 		}
 		damaged = false;
 	}
-	
+
+	public void Heal (int amount)
+	{
+			currentHealth += amount;
+			healthSlider.value = currentHealth;
+			audio.PlayOneShot (healed);
+			
+			if (currentHealth > startingHealth) {
+				currentHealth = startingHealth;
+			}
+		
+	}
 
 	public void TakeDamage (int amount)
 	{
@@ -72,6 +86,11 @@ public class playerHP : MonoBehaviour
 	{
 		isDead = true;
 		audio.PlayOneShot (deathClip);
+
+
+		cc.enabled = false;
+		ms.sensitivityX = 0;
+		ms.sensitivityY = 0;
 
 		GameObject manager = GameObject.Find ("_manager");
 		manager.GetComponent<gameManager> ().gameOver ();

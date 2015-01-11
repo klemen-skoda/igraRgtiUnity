@@ -23717,6 +23717,7 @@ MonoBehaviour:
   hurt1: {fileID: 8300000, guid: 3a3d5bbf16fa836458b88ca8320ab8f8, type: 3}
   hurt2: {fileID: 8300000, guid: 4cbedef445d0dfc499040fd119c0c4d8, type: 3}
   hurt3: {fileID: 8300000, guid: 0b2ac7d9fc806cd49b750423079ac846, type: 3}
+  healed: {fileID: 8300000, guid: f392c997bb77a7046802ec1deacdb72f, type: 3}
 --- !u!1 &654612585
 GameObject:
   m_ObjectHideFlags: 0
@@ -39876,7 +39877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1197489232
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40430,7 +40431,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -25, y: -37}
+  m_AnchoredPosition: {x: 52, y: -70.4000015}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: .499999911, y: .5}
 --- !u!114 &1240197830
@@ -45426,7 +45427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1393658059
 RectTransform:
   m_ObjectHideFlags: 0
