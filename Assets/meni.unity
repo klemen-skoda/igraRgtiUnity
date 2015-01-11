@@ -318,6 +318,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11473978, guid: 9c4d99cc9b2b93340b93cf579e102cab, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 208495468}
+    - target: {fileID: 11473978, guid: 9c4d99cc9b2b93340b93cf579e102cab, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: changeScene
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c4d99cc9b2b93340b93cf579e102cab, type: 2}
   m_RootGameObject: {fileID: 1518270745}
