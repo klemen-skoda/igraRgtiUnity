@@ -7,7 +7,6 @@ public class spawnEnemies : MonoBehaviour
 	public GameObject enemy;
 	public float spawnDelay = 3f;
 	
-	
 	void Start ()
 	{
 		InvokeRepeating ("Spawn", spawnDelay, spawnDelay);
