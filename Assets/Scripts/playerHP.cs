@@ -22,6 +22,7 @@ public class playerHP : MonoBehaviour
 	bool isDead;
 	bool damaged;
 	int hurtSound = 0;
+	gameManager manager;
 	
 	
 	void Awake ()
@@ -30,6 +31,7 @@ public class playerHP : MonoBehaviour
 		currentHealth = startingHealth;
 		cc = GetComponent <CharacterController> ();
 		ms = GetComponent <MouseLook> ();
+		manager = GetComponent <gameManager> ();
 	}
 	
 	
@@ -75,14 +77,13 @@ public class playerHP : MonoBehaviour
 	void Death ()
 	{
 		isDead = true;
-		
-		//playerShooting.DisableEffects ();
-		
-		
 		audio.PlayOneShot (deathClip);
-		//playerShooting.enabled = false;
+
+
 		cc.enabled = false;
 		ms.sensitivityX = 0;
 		ms.sensitivityY = 0;
+
+		manager.gameOver();
 	}
 }

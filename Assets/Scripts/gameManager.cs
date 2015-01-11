@@ -5,13 +5,56 @@ public class gameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Screen.showCursor = false;
+		pauseGame ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if ( Input.GetButtonDown( "Cancel" )) {
-			Application.LoadLevel(0);
+			pauseGame();
 		}
 	}
+
+	private void enablePanel( string name ){
+
+		GameObject giuCanvas = GameObject.Find ("GuiCanvas");
+		
+		foreach (Transform child in giuCanvas.transform) {
+			if( child.name == name ) child.gameObject.SetActive( true );
+			else child.gameObject.SetActive( false );
+		}
+	}
+
+	private void selectCamera( string name){
+
+		foreach (Camera camera in Camera.allCameras) {
+			if( camera.name == name) camera.enabled= true;
+			else camera.enabled= false;
+		}
+	}
+
+	public void startGame(){
+
+		enablePanel ("hud");
+		selectCamera ("MainCamera");
+		Screen.showCursor = false;
+		Time.timeScale = 1;
+	}
+
+	public void pauseGame(){
+
+		Time.timeScale = 0;
+		//selectCamera ("MenuCamera");
+		enablePanel ("mainMenu");
+		Screen.showCursor = true;
+	}
+
+	public void gameOver(){
+		pauseGame ();
+	}
+
+	public void exitGame(){
+		Application.Quit ();
+	}
+
 }
