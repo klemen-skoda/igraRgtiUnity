@@ -12,7 +12,7 @@ public class collisionManager : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		Physics.IgnoreLayerCollision( 8, 9, true );
+		if ( other.name == "Player" ) Physics.IgnoreLayerCollision( 8, 9, true );
 	}
 	
 }
