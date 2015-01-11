@@ -7,6 +7,7 @@ public class enemyMover : MonoBehaviour
 	playerHP playerHealth;
 	enemyHP enemyHealth;
 	NavMeshAgent nav;
+	enemyAttack attack;
 	
 	
 	void Awake ()
@@ -15,13 +16,15 @@ public class enemyMover : MonoBehaviour
 		playerHealth = player.GetComponent <playerHP> ();
 		enemyHealth = GetComponent <enemyHP> ();
 		nav = GetComponent <NavMeshAgent> ();
+		attack = GetComponent <enemyAttack> ();
 	}
 	
 	
 	void Update ()
 	{
-		if(enemyHealth.currentHealth > 0 && playerHealth.currentHealth > 0)
+		if(enemyHealth.currentHealth > 0 && playerHealth.currentHealth > 0 && !attack.playerInRange)
 		{
+			nav.enabled = true;
 			nav.SetDestination (player.position);
 			if (nav.hasPath) {
 				animation.CrossFade("Walk");

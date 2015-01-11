@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class enemyHP : MonoBehaviour
 {
@@ -61,7 +62,7 @@ public class enemyHP : MonoBehaviour
 		GetComponent <NavMeshAgent> ().enabled = false;
 		GetComponent <Rigidbody> ().isKinematic = true;
 		isSinking = true;
-		//ScoreManager.score += scoreValue;
+		changeScore.score += scoreValue;
 		Destroy (gameObject, 2f);
 	}
 }

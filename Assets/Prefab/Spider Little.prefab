@@ -1673,6 +1673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 1
   attackDamage: 5
+  playerInRange: 0
 --- !u!114 &11448500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1694,8 +1695,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.4000001
-  m_Center: {x: 0, y: 2, z: .300000012}
+  m_Radius: 4
+  m_Center: {x: 0, y: 2, z: 1.5}
 --- !u!136 &13648500
 CapsuleCollider:
   m_ObjectHideFlags: 1
