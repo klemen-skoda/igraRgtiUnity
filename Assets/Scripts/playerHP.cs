@@ -22,7 +22,6 @@ public class playerHP : MonoBehaviour
 	bool isDead;
 	bool damaged;
 	int hurtSound = 0;
-	gameManager manager;
 	
 	
 	void Awake ()
@@ -31,7 +30,6 @@ public class playerHP : MonoBehaviour
 		currentHealth = startingHealth;
 		cc = GetComponent <CharacterController> ();
 		ms = GetComponent <MouseLook> ();
-		manager = GetComponent <gameManager> ();
 	}
 	
 	
@@ -84,6 +82,8 @@ public class playerHP : MonoBehaviour
 		ms.sensitivityX = 0;
 		ms.sensitivityY = 0;
 
-		manager.gameOver();
+		GameObject manager = GameObject.Find ("_manager");
+		manager.GetComponent<gameManager> ().gameOver ();
+
 	}
 }
