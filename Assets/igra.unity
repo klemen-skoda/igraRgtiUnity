@@ -23862,7 +23862,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 654004041}
-  spawnPoints: []
+  spawnPoints:
+  - {fileID: 1278700465}
+  - {fileID: 2021714806}
+  - {fileID: 1352251687}
+  - {fileID: 1831098402}
+  - {fileID: 865335809}
+  - {fileID: 544317373}
   enemy: {fileID: 117528, guid: 01aed218665e96e45b87fa1b247d0c72, type: 2}
   spawnDelay: 70
 --- !u!1 &660759449
@@ -26212,7 +26218,6 @@ GameObject:
   - 20: {fileID: 722840270}
   - 124: {fileID: 722840269}
   - 92: {fileID: 722840268}
-  - 81: {fileID: 722840267}
   m_Layer: 0
   m_Name: MenuCamera
   m_TagString: Untagged
@@ -26232,13 +26237,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1529848272}
   m_RootOrder: 1
---- !u!81 &722840267
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 722840265}
-  m_Enabled: 1
 --- !u!92 &722840268
 Behaviour:
   m_ObjectHideFlags: 0
@@ -26714,8 +26712,9 @@ GameObject:
   - 224: {fileID: 766574212}
   - 222: {fileID: 766574214}
   - 114: {fileID: 766574213}
+  - 114: {fileID: 766574215}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Final Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26770,6 +26769,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 766574211}
+--- !u!114 &766574215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 766574211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f78a00c50564e459c2db9ba4736ad3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &770333810
 Prefab:
   m_ObjectHideFlags: 0

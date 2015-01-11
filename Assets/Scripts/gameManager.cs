@@ -50,7 +50,11 @@ public class gameManager : MonoBehaviour {
 	}
 
 	public void gameOver(){
-		pauseGame ();
+
+		Time.timeScale = 0;
+		enablePanel ("gameOver");
+		Screen.showCursor = true;
+
 	}
 
 	public void exitGame(){
