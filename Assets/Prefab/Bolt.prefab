@@ -12,7 +12,7 @@ GameObject:
   - 114: {fileID: 11477984}
   - 114: {fileID: 11483940}
   - 136: {fileID: 13660636}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ GameObject:
   - 33: {fileID: 3377984}
   - 136: {fileID: 13677984}
   - 23: {fileID: 2377984}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 477984}
   - 108: {fileID: 10877984}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
